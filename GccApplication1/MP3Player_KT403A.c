@@ -243,7 +243,7 @@ void DecreaseVolume(void)
 
 /**************************************************************** 
  * Function Name: QueryPlayStatus
- * Description: Query play status.
+ * Description: Query play status. This doesn't actually work reliably. ~50% of the time the MP3 IC freezes when this is called.
  * Parameters: none
  * Return: 0: played out; 1: other.
  * Usage: while(QueryPlayStatus() != 0);  // Waiting to play out.
